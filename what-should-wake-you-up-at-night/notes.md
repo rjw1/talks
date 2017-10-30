@@ -14,37 +14,54 @@
 
 - ways to achieve not being woken up
 
-- self healing systems
-   - pros + cons
-- follow the sun oncall
-  - good idea but is feasible
 - shift work
   - if we really have to
   - soemthing something shift work being bad for you.
-
-- but as a lot of us know that isnt actually possible
+- follow the sun oncall
+  - good idea but is feasible
+  - but as a lot of us know that isnt actually possible
   - you need to be a certain size
+- self healing systems
+   - pros + cons
+   - clusters
+   - failover
+   - auto scaling
+   - how and why to self heal
+   - when it goes wrong its likely to go really wrong.
+   - who knows what kubernetes is actaully doing :shrug:
 
 - so before we get onto the what lets talk about the who.
  - ops team
  - dev team
  - devops team
   - obviously the last one is trick question if you have a devops team along with the other you are doing it wrong.
+  - devops is a culture not a team or job title. 
+    - yes this is a losing battle
+
  - everyone is the actual answer
  - thigns get fixed quickly if a dev gets woken up 
- 
+ - always 2! since being on call sucks.
+  -  Always two there are - Yoda
 
 - what?
  - pay attention if you ever apply to GDS ( we are hiring come speak to me)
  - its all about the users.
+  - list things people want to monitor first. disk, cpu, memory. 
+   - does the use care?
+    - no. (what is the user need graphic)
   - ecommerce example
-  - so monitor your imporant use jounrey
+    - paying for stuff is the business and user need.
+  - so monitor your imporant user jounrey
  - availability.
  - response times
  - errror rates
  - legal requirements
    - publishing data at a certain time. (explain its mostly 09:30)
- - life of death situations
+ - life or death situations
   - mhra reports
   - travel advice
 
+
+- tooling
+  - tbh i dont care.
+  - 
