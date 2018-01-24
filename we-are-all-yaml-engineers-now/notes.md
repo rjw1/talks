@@ -59,3 +59,5 @@
   - config
   - data serialization for sharing.
 
+
+- safe yaml: "https://github.com/imbal/safeyaml"
